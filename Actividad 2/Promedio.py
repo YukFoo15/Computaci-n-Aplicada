@@ -1,10 +1,14 @@
+import os
+
+os.system("clear")
+
 sum = 0
-c = int(input("Introduzca el número de calificaciones a las que se les obtendrá el promedio: ") )
+print("Promedio de tres calificaciones \n")
+print("Introduzca 3 calificaciones separadas por espacio (Pueden tener decimales)") 
 
-for i in range(0,c):
-  cal = int(input("Introduzca una calificación: ") )
-  sum = sum + cal
+c1, c2, c3 = input().split()
+c1, c2, c3 = float(c1), float(c2), float(c3)
 
-promedio = sum / c
+prom = ((c1+c2+c3)/3)
 
-print("El promedio de las calificaciones ingresadas es: ", promedio)
+print(f"El promedio de {c1}, {c2} y {c3} es {prom:.2f}")
