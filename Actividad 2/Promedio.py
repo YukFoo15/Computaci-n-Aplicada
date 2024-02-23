@@ -2,7 +2,7 @@ import os
 
 os.system("clear")
 
-sum = 0
+
 print("Promedio de tres calificaciones \n")
 print("Introduzca 3 calificaciones separadas por espacio (Pueden tener decimales)") 
 
