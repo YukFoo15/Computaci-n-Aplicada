@@ -1,0 +1,23 @@
+import os
+os.system("clear")
+
+print("Universidad Kitty Kat S.A. \n")
+print("Validación de inscripción \n")
+
+nombre = input("Introduzca su nombre: ")
+edad = int(input("Introduzca su edad: "))
+sexo = input("Introduzca su sexo (h/m): ").lower()
+
+if sexo != "m":
+    print("Sólo se aceptan estudiantes mujeres")
+elif edad < 21:
+    print("Sólo se aceptan estudiantes mayores de 21 años de edad")
+else:
+    c1, c2, c3 = map(float, input("Introduzca tres calificaciones separadas por <Espacio>: ").split())
+    promedio = (c1 + c2 + c3) / 3
+    if promedio < 8.5 or promedio > 9.5:
+        print("Sólo se aceptan estudiantes con un promedio entre 8.5 y 9.5")
+    else:
+        print(f"{nombre}, bienvenida a la Universidad Kitty Kat S.A., su edad: {edad} años, su promedio: {promedio} y el hecho de que sea una mujer lo permiten ")
+
+print("\nProceso terminado")
