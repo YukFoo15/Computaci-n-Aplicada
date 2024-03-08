@@ -50,3 +50,11 @@ melissaesparza846@gmail.com
     •p32-numeros-suma-100  
     •p33-conteo-numeros
 
+## Actividad 6
+    •p34-tabla-conversion
+    •p35-conjetura-collatz
+    •p36-tabla-multiplicar
+    •p37-tabla-multiplicar-v2
+
+## Primer examen parcial
+    •p44–primer-examen-parcial
