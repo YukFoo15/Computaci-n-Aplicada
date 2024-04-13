@@ -15,7 +15,7 @@ while True:
 
 print(f"Datos {datos}, {len(datos)}")
 
-print(f"\n Listado de ombres y edades con suma y promedio: " )
+print(f"\n Listado de nombres y edades con suma y promedio: " )
 s = p = 0
 
 for m, c in datos.items():
