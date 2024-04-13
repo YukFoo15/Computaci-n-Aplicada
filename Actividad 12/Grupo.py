@@ -20,3 +20,14 @@ while True:
         break
 
     print(f"El grupo completo es: {grupo} y cuenta con {len(grupo)} alumnos")
+
+    print("Tabla de estudiantes: \n")
+    s = 0
+    for e in grupo:
+        s = s + e["Promedio"]
+        for m,n in e.items():
+            print(f"{m:<10} + {n}")
+            print()
+
+    print(f"La suma de los promedios es: {s}")
+    print(f"El promedio de la clase es: {s / len(grupo)}")
