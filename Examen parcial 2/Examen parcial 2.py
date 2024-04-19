@@ -44,7 +44,3 @@ print("Total de hombres: ", th)
 print("total de mujeres: ", tm)
 print(f"Suma de edades: {se}, Promedio de edades: {promed}")
 print(f"Suma de sueldos: {ss}, Promedio de sueldos: {promsu}")
-
-
-
-
