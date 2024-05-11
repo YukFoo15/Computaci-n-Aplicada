@@ -27,4 +27,4 @@ print(empleado2)
 empleado3 = Empleado("Rocío Soto", 45, "M", False, 2000)
 print(empleado3)
 
-print(f"Total de sueldos de los tres empleados ingresados: ", (empleado1.edad + empleado2.edad + empleado3.edad))
+print(f"Total de sueldos de los tres empleados ingresados: ", (empleado1.sueldo + empleado2.sueldo + empleado3.sueldo))
